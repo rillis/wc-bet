@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Copa do mundo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Copa do mundo - Qatar 2022</h1>
+      <h4>Fase de grupos</h4>
+      <div class="row">
+
+      <div class="grdowno col">
+        <p class="grdowno-title">Grupo A</p>
+        <p class="time top1" id="A1"><i class="bi bi-arrow-up disabled" onclick=""></i><i class="bi bi-arrow-down" onclick="down('A1');"></i><img src="flags/QAT.png" class="flag"/>Qatar</p>
+        <p class="time top2" id="A2"><i class="bi bi-arrow-up" onclick="up('A2');"></i><i class="bi bi-arrow-down" onclick="down('A2');"></i><img src="flags/ECU.png" class="flag"/>Equador</p>
+        <p class="time top34" id="A3"><i class="bi bi-arrow-up" onclick="up('A3');"></i><i class="bi bi-arrow-down" onclick="down('A3');"></i><img src="flags/SEN.png" class="flag"/>Senegal</p>
+        <p class="time top34" id="A4"><i class="bi bi-arrow-up" onclick="up('A4');"></i><i class="bi bi-arrow-down disabled" onclick=""></i><img src="flags/NED.png" class="flag"/>Holanda</p>
+        </ul>
+      </div>
+
+      <div class="grdowno col">
+        <p class="grdowno-title">Grupo B</p>
+        <p class="time top1" id="B1"><i class="bi bi-arrow-up disabled" onclick=""></i><i class="bi bi-arrow-down" onclick="down('B1');"></i><img src="flags/ENG.png" class="flag"/>Inglaterra</p>
+        <p class="time top2" id="B2"><i class="bi bi-arrow-up" onclick="up('B2');"></i><i class="bi bi-arrow-down" onclick="down('B2');"></i><img src="flags/IRN.png" class="flag"/>Irã</p>
+        <p class="time top34" id="B3"><i class="bi bi-arrow-up" onclick="up('B3');"></i><i class="bi bi-arrow-down" onclick="down('B3');"></i><img src="flags/USA.png" class="flag"/>USA</p>
+        <p class="time top34" id="B4"><i class="bi bi-arrow-up" onclick="up('B4');"></i><i class="bi bi-arrow-down disabled" onclick=""></i><img src="flags/WAL.png" class="flag"/>Pais de Gales</p>
+        </ul>
+      </div>
+
+      <div class="grdowno col">
+        <p class="grdowno-title">Grupo C</p>
+        <p class="time top1" id="C1"><i class="bi bi-arrow-up disabled" onclick=""></i><i class="bi bi-arrow-down" onclick="down('C1');"></i><img src="flags/ARG.png" class="flag"/>Argentina</p>
+        <p class="time top2" id="C2"><i class="bi bi-arrow-up" onclick="up('C2');"></i><i class="bi bi-arrow-down" onclick="down('C2');"></i><img src="flags/KSA.png" class="flag"/>Arabia Saudita</p>
+        <p class="time top34" id="C3"><i class="bi bi-arrow-up" onclick="up('C3');"></i><i class="bi bi-arrow-down" onclick="down('C3');"></i><img src="flags/MEX.png" class="flag"/>Mexico</p>
+        <p class="time top34" id="C4"><i class="bi bi-arrow-up" onclick="up('C4');"></i><i class="bi bi-arrow-down disabled" onclick=""></i><img src="flags/POL.png" class="flag"/>Polônia</p>
+        </ul>
+      </div>
+
+      <div class="grdowno col">
+        <p class="grdowno-title">Grupo D</p>
+        <p class="time top1" id="D1"><i class="bi bi-arrow-up disabled" onclick=""></i><i class="bi bi-arrow-down " onclick="down('D1');"></i><img src="flags/FRA.png" class="flag"/>França</p>
+        <p class="time top2" id="D2"><i class="bi bi-arrow-up" onclick="up('D2');"></i><i class="bi bi-arrow-down" onclick="down('D2');"></i><img src="flags/AUS.png" class="flag"/>Australia</p>
+        <p class="time top34" id="D3"><i class="bi bi-arrow-up" onclick="up('D3');"></i><i class="bi bi-arrow-down" onclick="down('D3');"></i><img src="flags/DEN.png" class="flag"/>Dinamarca</p>
+        <p class="time top34" id="D4"><i class="bi bi-arrow-up " onclick="up('D4');"></i><i class="bi bi-arrow-down disabled" onclick=""></i><img src="flags/TUN.png" class="flag"/>Tunisia</p>
+        </ul>
+      </div>
+
+    </div>
+    <div class="row">
+
+    <div class="grdowno col">
+      <p class="grdowno-title">Grupo E</p>
+      <p class="time top1" id='E1'><i class="bi bi-arrow-up disabled" onclick=""></i><i class="bi bi-arrow-down " onclick="down('E1');"></i><img src="flags/ESP.png" class="flag"/>Espanha</p>
+      <p class="time top2" id='E2'><i class="bi bi-arrow-up" onclick="up('E2');"></i><i class="bi bi-arrow-down" onclick="down('E2');"></i><img src="flags/CRC.png" class="flag"/>Costa Rica</p>
+      <p class="time top34" id='E3'><i class="bi bi-arrow-up" onclick="up('E3');"></i><i class="bi bi-arrow-down" onclick="down('E3');"></i><img src="flags/GER.png" class="flag"/>Alemanha</p>
+      <p class="time top34" id='E4'><i class="bi bi-arrow-up " onclick="up('E4');"></i><i class="bi bi-arrow-down disabled" onclick=""></i><img src="flags/JPN.png" class="flag"/>Japão</p>
+      </ul>
+    </div>
+
+    <div class="grdowno col">
+      <p class="grdowno-title">Grupo F</p>
+      <p class="time top1" id='F1'><i class="bi bi-arrow-up disabled" onclick=""></i><i class="bi bi-arrow-down " onclick="down('F1');"></i><img src="flags/BEL.png" class="flag"/>Bélgica</p>
+      <p class="time top2" id='F2'><i class="bi bi-arrow-up" onclick="up('F2');"></i><i class="bi bi-arrow-down" onclick="down('F2');"></i><img src="flags/CAN.png" class="flag"/>Canadá</p>
+      <p class="time top34" id='F3'><i class="bi bi-arrow-up" onclick="up('F3');"></i><i class="bi bi-arrow-down" onclick="down('F3');"></i><img src="flags/MAR.png" class="flag"/>Marrocos</p>
+      <p class="time top34" id='F4'><i class="bi bi-arrow-up " onclick="up('F4');"></i><i class="bi bi-arrow-down disabled" onclick=""></i><img src="flags/CRO.png" class="flag"/>Croácia</p>
+      </ul>
+    </div>
+
+    <div class="grdowno col">
+      <p class="grdowno-title">Grupo G</p>
+      <p class="time top1" id='G1'><i class="bi bi-arrow-up disabled" onclick=""></i><i class="bi bi-arrow-down " onclick="down('G1');"></i><img src="flags/BRA.png" class="flag"/><b>Brasil</b></p>
+      <p class="time top2" id='G2'><i class="bi bi-arrow-up" onclick="up('G2');"></i><i class="bi bi-arrow-down" onclick="down('G2');"></i><img src="flags/SRB.png" class="flag"/>Servia</p>
+      <p class="time top34" id='G3'><i class="bi bi-arrow-up" onclick="up('G3');"></i><i class="bi bi-arrow-down" onclick="down('G3');"></i><img src="flags/SUI.png" class="flag"/>Suiça</p>
+      <p class="time top34" id='G4'><i class="bi bi-arrow-up " onclick="up('G4');"></i><i class="bi bi-arrow-down disabled" onclick=""></i><img src="flags/CMR.png" class="flag"/>Camarões</p>
+      </ul>
+    </div>
+
+    <div class="grdowno col">
+      <p class="grdowno-title">Grupo H</p>
+      <p class="time top1" id='H1'><i class="bi bi-arrow-up disabled" onclick=""></i><i class="bi bi-arrow-down " onclick="down('H1');"></i><img src="flags/POR.png" class="flag"/>Portugal</p>
+      <p class="time top2" id='H2'><i class="bi bi-arrow-up" onclick="up('H2');"></i><i class="bi bi-arrow-down" onclick="down('H2');"></i><img src="flags/GHA.png" class="flag"/>Gana</p>
+      <p class="time top34" id='H3'><i class="bi bi-arrow-up" onclick="up('H3');"></i><i class="bi bi-arrow-down" onclick="down('H3');"></i><img src="flags/URU.png" class="flag"/>Uruguai</p>
+      <p class="time top34" id='H4'><i class="bi bi-arrow-up" onclick="up('H4');"></i><i class="bi bi-arrow-down disabled" onclick=""></i><img src="flags/KOR.png" class="flag"/>Coreia do Sul</p>
+      </ul>
+    </div>
+
+  </div>
+
+    <h4>Chaves</h4>
+
+    <div class="row">
+      <div class="col">
+        <div class="confronto">
+          <input type="number" class="score" value=0 onchange="chave('a1');" id="a1s1" /><p class="time-chave" id="a1a" holder="A1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('a1');" id="a1s2" /><p class="time-chave" id="a1b" holder="B2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto">
+          <input type="number" class="score" value=0 onchange="chave('a2');" id="a2s1" /><p class="time-chave" id="a2a" holder="C1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('a2');" id="a2s2" /><p class="time-chave" id="a2b" holder="D2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto">
+          <input type="number" class="score" value=0 onchange="chave('a3');" id="a3s1" /><p class="time-chave" id="a3a" holder="E1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('a3');" id="a3s2" /><p class="time-chave" id="a3b" holder="F2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto">
+          <input type="number" class="score" value=0 onchange="chave('a4');" id="a4s1" /><p class="time-chave" id="a4a" holder="G1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('a4');" id="a4s2" /><p class="time-chave" id="a4b" holder="H2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto">
+          <input type="number" class="score" value=0 onchange="chave('a5');" id="a5s1" /><p class="time-chave" id="a5a" holder="B1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('a5');" id="a5s2" /><p class="time-chave" id="a5b" holder="A2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto">
+          <input type="number" class="score" value=0 onchange="chave('a6');" id="a6s1" /><p class="time-chave" id="a6a" holder="D1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('a6');" id="a6s2" /><p class="time-chave" id="a6b" holder="C2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto">
+          <input type="number" class="score" value=0 onchange="chave('a7');" id="a7s1" /><p class="time-chave" id="a7a" holder="F1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('a7');" id="a7s2" /><p class="time-chave" id="a7b" holder="E2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto">
+          <input type="number" class="score" value=0 onchange="chave('a8');" id="a8s1" /><p class="time-chave" id="a8a" holder="H1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('a8');" id="a8s2" /><p class="time-chave" id="a8b" holder="G2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="confronto" style="margin-top:25px;">
+          <input type="number" class="score" value=0 onchange="chave('b1');" id="b1s1" /><p class="time-chave" id="b1a" holder="a1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('b1');" id="b1s2" /><p class="time-chave" id="b1b" holder="a2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto" style="margin-top:55px;">
+          <input type="number" class="score" value=0 onchange="chave('b2');" id="b2s1" /><p class="time-chave" id="b2a" holder="a3"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('b2');" id="b2s2" /><p class="time-chave" id="b2b" holder="a4"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto" style="margin-top:50px;">
+          <input type="number" class="score" value=0 onchange="chave('b3');" id="b3s1" /><p class="time-chave" id="b3a" holder="a5"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('b3');" id="b3s2" /><p class="time-chave" id="b3b" holder="a6"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto" style="margin-top:50px;">
+          <input type="number" class="score" value=0 onchange="chave('b4');" id="b4s1" /><p class="time-chave" id="b4a" holder="a7"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('b4');" id="b4s2" /><p class="time-chave" id="b4b" holder="a8"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="confronto" style="margin-top:80px;">
+          <input type="number" class="score" value=0 onchange="chave('c1');" id="c1s1" /><p class="time-chave" id="c1a" holder="b1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('c1');" id="c1s2" /><p class="time-chave" id="c1b" holder="b2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+        <div class="confronto" style="margin-top:150px;">
+          <input type="number" class="score" value=0 onchange="chave('c2');" id="c2s1" /><p class="time-chave" id="c2a" holder="b3"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('c2');" id="c2s2" /><p class="time-chave" id="c2b" holder="b4"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="confronto" style="margin-top:180px;">
+          <input type="number" class="score" value=0 onchange="chave('d1');" id="d1s1" /><p class="time-chave" id="d1a" holder="c1"><img src="flags/UND.png" class="flag"/>Undefined</p><br>
+          <input type="number" class="score" value=0 onchange="chave('d1');" id="d1s2" /><p class="time-chave" id="d1b" holder="c2"><img src="flags/UND.png" class="flag"/>Undefined</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <button type="button" onclick="copy()" class="btn btn-primary" style="margin:10px;">Copy Code</button>
+    </div>
+
+
+
+    </div>
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <script>
+
+
+  </script>
+</html>

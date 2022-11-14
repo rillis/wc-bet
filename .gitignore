@@ -1,0 +1,5 @@
+__pycache__/*
+users/*.json
+venv/*
+secret.py
+*test.py
